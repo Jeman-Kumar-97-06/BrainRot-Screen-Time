@@ -1,0 +1,32 @@
+@font-face {
+  font-family:'Qurova';
+  src: url('./assets/fonts/Digital\ Dismay.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'Remaining';
+  src: url('./assets/fonts/digitalism.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    width:250px;
+    height:150px;
+    background-color:cadetblue;
+    font-family:'Qurova';
+    color: black;
+}
+
+#reset{
+    background-color: aqua;
+    position: absolute;
+    bottom: 10px;
+}
+
+#time{
+    font-size: 30px;
+    font-family: 'Remaining';
+}
