@@ -33,7 +33,7 @@ chrome.windows.onFocusChanged.addListener((windowId) => {
 });
 
 function isBrainrotSite(url = "") {
-  return url.includes("youtube.com") || url.includes("twitter.com");
+  return url.includes("youtube.com") || url.includes("x.com");
 }
 
 function updateTime() {
